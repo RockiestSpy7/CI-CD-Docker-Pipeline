@@ -1,6 +1,8 @@
 FROM nginx:alpine
 
-COPY html/ /usr/share/nginx/html/
+WORKDIR /usr/share/nginx/html/
+
+COPY index.html assets images ./
 
 EXPOSE 80
 

@@ -1,3 +1,6 @@
+
+![CICD Pipeline drawio](https://github.com/RockiestSpy7/CI-Docker-Pipeline/assets/125578099/ab63a0a3-37c1-4205-961e-15531041af73)
+
 # Boardgame CI/CD Pipeline
 
 This repository contains the Jenkins pipeline configuration for the "Boardgame" application. The pipeline automates the process of code checkout, compilation, testing, security analysis, and pushing the docker image to your repository.
